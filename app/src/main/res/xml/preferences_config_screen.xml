@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Preferencias de configuração do Podcast">
+        <EditTextPreference
+            android:title="@string/rss_feed"
+            android:key="@string/rss_feed"
+            android:dialogTitle="@string/edic_rss_feed"
+            android:dialogMessage="@string/msg_link_rss"
+            android:positiveButtonText="SALVAR"
+            android:negativeButtonText="CANCELAR"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
